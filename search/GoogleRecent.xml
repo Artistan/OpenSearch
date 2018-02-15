@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://a9.com/-/spec/opensearch/1.1/">
     <ShortName>GoogleRecent</ShortName>
     <Description>searches for results in the past year, giving me recent, relevant results</Description>
     <Tags>google search recent relevant</Tags>
-    <Url type="text/html" method="GET" template="https://www.google.com/search?hl=en&amp;tbo=1&amp;tbs=qdr:y&amp;q={searchTerms}"/>
+    <Url type="text/html" method="GET"
+         template="https://www.google.com/search?hl=en&amp;tbo=1&amp;tbs=qdr:y&amp;q={searchTerms}"/>
 </OpenSearchDescription>
